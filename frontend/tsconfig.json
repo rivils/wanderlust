@@ -13,7 +13,6 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -25,8 +24,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    //silents: ts-jest[config] (WARN) message TS151001
-    //More: https://blogs.msdn.microsoft.com/typescript/2018/01/31/announcing-typescript-2-7/#easier-ecmascript-module-interoperability for more information.
     "esModuleInterop": true
   },
   "include": ["src", "test-setup.ts"],
